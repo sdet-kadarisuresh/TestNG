@@ -17,6 +17,7 @@
   </properties>
 
   <dependencyManagement>
+  
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
@@ -26,20 +27,19 @@
         <scope>import</scope>
       </dependency>
     </dependencies>
+    
   </dependencyManagement>
 
   <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <!-- Optionally: parameterized tests support -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <scope>test</scope>
-    </dependency>
+  
+   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+    
   </dependencies>
 
   <build>
