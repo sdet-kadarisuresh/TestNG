@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AutomationSuite">
+    <before-suite>
+        <classes>
+            <class name="SuiteConfig"/>
+        </classes>
+    </before-suite>
+    
+    <test name="LoginModule">
+        <classes>
+            <class name="LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="SearchModule">
+        <classes>
+            <class name="SearchTests"/>
+        </classes>
+    </test>
+
+</suite>
