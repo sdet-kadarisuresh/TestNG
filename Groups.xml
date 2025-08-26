@@ -11,9 +11,9 @@
 			</run>
 		</groups>
 
-		<classes>
-			<class name="annotations.GroupTest"></class>
-		</classes>
+		<packages>
+		<package name="annotations"></package>
+		</packages>
 
 	</test>
 
