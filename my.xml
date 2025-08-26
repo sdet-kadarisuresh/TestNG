@@ -1,22 +1,25 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 
+<suite name="my suite">
 
-<suite name="my suite" >
-
-<test name="Login">
+	<test name="Login">
 		<classes>
-						<class name="annotations.SuiteConfig"></class>
-				<class name="annotations.LoginTests"/>
-				
+			<class name="annotations.SuiteConfig"></class>
+			<class name="annotations.LoginTests" />
 		</classes>
-</test>
+	</test>
 
-<test name="Search">
+	<test name="Search">
+		<classes>
+			<class name="annotations.SuiteConfig"></class>
+			<class name="annotations.SearchTests"></class>
+		</classes>
+	</test>
+
+<test name="Priority">
 <classes>
-	<class name="annotations.SuiteConfig"></class>
-  <class name="annotations.SearchTests"></class>
+<class name="annotations.PriorityTest"></class>
 </classes>
 </test>
-
 </suite>

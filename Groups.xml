@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Group">
+
+	<test name="smokeTesting ">
+
+		<groups>
+			<run>
+				<include name="smoke"></include>
+				<exclude name="sainty"></exclude>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="annotations.GroupTest"></class>
+		</classes>
+
+	</test>
+
+	<test name="RegressionTesting k">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+		<class name="annotations.GroupTest"></class>
+		</classes>
+
+
+	</test>
+
+</suite>

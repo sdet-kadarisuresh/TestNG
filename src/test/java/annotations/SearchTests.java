@@ -6,7 +6,7 @@ public class SearchTests {
 
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("SearchTests: BeforeMethod - Navigate to Search Page -->befour method search ");
+        System.out.println("SearchTests: BeforeMethod - Navigate to Search Page ________>BeforeMethod search ");
     }
 
     @Test
@@ -16,7 +16,7 @@ public class SearchTests {
     
 	@BeforeClass
 	public void setupClass() {
-		System.out.println("BeforeClass: Open Browser====> befour search class");
+		System.out.println("BeforeClass: Open Browser-----------> Before search class");
 	}
 
 	@AfterClass
@@ -27,6 +27,6 @@ public class SearchTests {
 
     @AfterMethod
     public void afterMethod() {
-        System.out.println("SearchTests: AfterMethod - Clear Search--->after method search");
+        System.out.println("SearchTests: AfterMethod - Clear Search _______>after method search");
     }
 }
