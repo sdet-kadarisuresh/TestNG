@@ -27,6 +27,11 @@ public class SecondTest {
 	public void searchTest() {
 		System.out.println("Executing Search Test");
 	}
+	
+	@Test
+    public void checkoutTest() {
+        System.out.println("Executing Checkout Test"); 
+    }
 
 	@AfterMethod
 	public void teardownMethod() {
