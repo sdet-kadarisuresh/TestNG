@@ -6,21 +6,22 @@ public class SuiteConfig {
 
     @BeforeSuite
     public void beforeSuite() {
-        System.out.println("BeforeSuite: Initialize DB / Reports");
+        System.out.println("BeforeSuite: Initialize DB / Reports++++++++++++++++");
     }
 
     @AfterSuite
     public void afterSuite() {
-        System.out.println("AfterSuite: Close DB / Reports");
+        System.out.println("AfterSuite: Close DB / Reports++++++++++++++++++++");
     }
+
 
     @BeforeTest
     public void beforeTest() {
-        System.out.println("BeforeTest: Setup for this module");
+        System.out.println("BeforeTest: Setup for this module <------Start Test---------->");
     }
 
     @AfterTest
     public void afterTest() {
-        System.out.println("AfterTest: Cleanup for this module");
+        System.out.println("AfterTest: Cleanup for this module<=======Ending Test===");
     }
 }
