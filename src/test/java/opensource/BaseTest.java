@@ -1,4 +1,5 @@
-package FlipkartSuite;
+package opensource;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -12,13 +13,14 @@ public class BaseTest {
     public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.flipkart.com");
+        System.out.println("Browser opened");
     }
 
     @AfterMethod
     public void teardown() {
         if (driver != null) {
             driver.quit();
+            System.out.println("Browser closed");
         }
     }
 
