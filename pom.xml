@@ -32,6 +32,20 @@
 
   <dependencies>
   
+  <!-- Apache Commons IO (for screenshots) -->
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.13.0</version>
+    </dependency>
+
+    <!-- ExtentReports -->
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.0.9</version>
+    </dependency>
+  
    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>

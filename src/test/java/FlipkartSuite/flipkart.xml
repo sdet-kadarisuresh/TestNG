@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlipkartSuite" parallel="tests" thread-count="3">
+
+    <test name="LoginTest">
+        <classes>
+            <class name="FlipkartSuite.ECommerceTests"/>
+        </classes>
+    </test>
+
+    <test name="SearchTest">
+        <classes>
+            <class name="FlipkartSuite.ECommerceTests"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutTest">
+        <classes>
+            <class name="FlipkartSuite.ECommerceTests"/>
+        </classes>
+    </test>
+
+</suite>
