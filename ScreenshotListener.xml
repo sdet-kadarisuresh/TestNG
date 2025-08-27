@@ -1,0 +1,5 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.testng.TestNG.ScreenshotListener"/>
+    </listeners>
+</suite>

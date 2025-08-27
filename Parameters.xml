@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterSuite">
+
+	<test name="LoginTest">
+		<parameter name="username" value="user1" />
+		<parameter name="password" value="pass1" />
+		<parameter name="browser" value="chrome" />
+
+		<parameter name="env" value="staging" />
+
+		<parameter name="username" value="user51" />
+		<parameter name="password" value="pass1" />
+		<parameter name="role" value="admin" />
+
+
+		<classes>
+			<class name="annotations.Parameters.ParameterTest" />
+		</classes>
+	</test>
+
+</suite>
