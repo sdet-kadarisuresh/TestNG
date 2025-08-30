@@ -17,7 +17,7 @@ public class SuiteConfig {
 
     @BeforeTest
     public void beforeTest() {
-        System.out.println("BeforeTest: Setup for this module <------Start Test---------->");
+        System.out.println("BeforeTest: Setup for this module <----Start Test---------->");
     }
 
     @AfterTest
