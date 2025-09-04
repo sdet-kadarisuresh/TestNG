@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T14:19:46 IST" name="Default suite" finished-at="2025-08-31T14:19:53 IST" duration-ms="6686">
+    <groups>
+    </groups>
+    <test started-at="2025-08-31T14:19:46 IST" name="Default test" finished-at="2025-08-31T14:19:53 IST" duration-ms="6686">
+      <class name="ToolsQA.Home">
+        <test-method signature="open()[pri:1, instance:ToolsQA.Home@73a1e9a9]" started-at="2025-08-31T14:19:46 IST" name="open" finished-at="2025-08-31T14:19:50 IST" duration-ms="4173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="StateTesting()[pri:2, instance:ToolsQA.Home@73a1e9a9]" started-at="2025-08-31T14:19:50 IST" name="StateTesting" finished-at="2025-08-31T14:19:52 IST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StateTesting -->
+        <test-method signature="Author()[pri:3, instance:ToolsQA.Home@73a1e9a9]" started-at="2025-08-31T14:19:52 IST" name="Author" finished-at="2025-08-31T14:19:53 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Author -->
+      </class> <!-- ToolsQA.Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
