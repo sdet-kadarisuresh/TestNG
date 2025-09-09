@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ToolsQA.Home">
+      <class name="cnarios.ProductFilterTests">
         <methods>
-          <include name="StateTesting"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testFilterByCategory"/>
         </methods>
-      </class> <!-- ToolsQA.Home -->
+      </class> <!-- cnarios.ProductFilterTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
