@@ -1,6 +1,5 @@
 package cnarios;
 
-import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
